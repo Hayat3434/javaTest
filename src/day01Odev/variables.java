@@ -11,6 +11,16 @@ Java Değişken Tanımlama
    Boolean sadece iki değer alabilir : True ve False)
 
 ve değişkenin ismini yazarız ve istenirse aynı matematikteki gibi "=" eşittir ile değerini atarız.
+
+int sayi;  deklarasyon sadece 1 kere yapilir
+sayi=15;  deger atamasi istedigimiz kadar olabilir
+        System.out.println(sayi); // 15
+        sayi=20;
+        System.out.println(sayi); // 20
+        sayi = sayi+10;
+        System.out.println(sayi); // 30
+
+
  */
 public class variables {
     public static void main(String[] args) {
